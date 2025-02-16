@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RGB Color Game</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="RGBStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?display=swap&family=Catamaran:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <footer class="entrance" id="entrance">
+      <h1>The</h1>
+      <div class="RGBentrance">
+        <h1 style="color: red">R</h1>
+        <h1 style="color: green">G</h1>
+        <h1 style="color: blue">B</h1>
+      </div>
+      <h1>Color Game</h1>
+    </footer>
+    <section class="nav">
+      <button class="reset" id="reset">New Colors</button>
+      <div class="colordiv">
+        <span id="colorDisplay"></span>
+        <span class="message" id="message" ></span>
+      </div>
+      <div class="difficultydiv">
+        <button class="mode" id="mode">Easy</button>
+        <button class="mode selected" id="mode">Hard</button>
+      </div>
+    </section>
+    <main>
+      <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+    </main>
+    <script type="text/javascript" src="RGBScript.js"></script>
+  </body>
+</html>
